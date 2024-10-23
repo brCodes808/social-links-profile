@@ -29,10 +29,9 @@ body{
 .slp__wrapper{
     background-color: var(--grey-800);
     align-content: center;
-    display: flex;
+    display: grid;
     max-width: 400px;
     height: 520px;
     place-content: center;
-    margin-inline: auto;
 
 }
