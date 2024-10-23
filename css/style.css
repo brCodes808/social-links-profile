@@ -1,0 +1,38 @@
+/* Google Font Import */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root{
+    --clr-green: hsl(75, 94%, 57%);
+    --clr-White: hsl(0, 0%, 100%);
+    --grey-700: hsl(0, 0%, 20%);
+    --grey-800: hsl(0, 0%, 12%);
+    --grey-900: hsl(0, 0%, 8%);
+
+    --ff-inter: "Inter", sans-serif;
+
+    --fs-small: 14px;
+
+    --fw-regular: 400;
+    --fw-semibold: 600;
+    --fw-bold: 700;
+}
+
+
+body{
+    color: var(--clr-White);
+    background-color: var(--grey-900);
+    font-family: var(--ff-inter);
+    line-height: 1.6;
+    min-height: 100dvh;
+}
+
+.slp__wrapper{
+    background-color: var(--grey-800);
+    align-content: center;
+    display: flex;
+    max-width: 400px;
+    height: 520px;
+    place-content: center;
+    margin-inline: auto;
+
+}
